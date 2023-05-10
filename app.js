@@ -15,7 +15,7 @@ const cors = require('cors');
 const jwt = require("jsonwebtoken");
 var moment = require('moment');
 
-mongoose.connect("mongodb+srv://habbit:habbit2022@cluster0.qicx3.mongodb.net/smartpill?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://xxx:yyyy@cluster0.qicx3.mongodb.net/smartpill?retryWrites=true&w=majority");
 var userData;
 var graphData;
 var instructions;
